@@ -24,3 +24,21 @@ th,td{
 border:1px solid black;
 padding:10px;
 }
+
+nav {
+    background-color: #4CAF50; /* nice green background */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;        /* link text color */
+    text-decoration: none; /* remove underline */
+    margin-right: 15px;  /* space between links */
+    font-weight: bold;   /* make links bold */
+}
+
+nav a:hover {
+    text-decoration: underline; /* underline on hover */
+}
